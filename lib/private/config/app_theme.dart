@@ -14,7 +14,7 @@ final class AppTheme {
         ),
       ).copyWith(
           extensions: {AppColor.light},
-          cardTheme: CardThemeData( // Changed CardTheme to CardThemeData
+          cardTheme: CardThemeData(
             color: AppColor.light.elementBackgroundPrimary,
             margin: EdgeInsets.zero,
             shape: RoundedRectangleBorder(
@@ -44,7 +44,7 @@ final class AppTheme {
             borderColor: AppColor.light.elementBackgroundPrimary,
             splashColor: Colors.transparent,
           ),
-          dialogTheme: DialogThemeData( // Changed DialogTheme to DialogThemeData
+          dialogTheme: DialogThemeData(
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(16),
             ),
@@ -77,7 +77,7 @@ final class AppTheme {
         ),
       ).copyWith(
           extensions: {AppColor.dark},
-          cardTheme: CardThemeData( // Changed CardTheme to CardThemeData
+          cardTheme: CardThemeData(
             color: AppColor.dark.elementBackgroundPrimary,
             margin: EdgeInsets.zero,
             shape: RoundedRectangleBorder(
@@ -107,7 +107,7 @@ final class AppTheme {
             borderColor: AppColor.dark.elementBackgroundPrimary,
             splashColor: Colors.transparent,
           ),
-          dialogTheme: DialogThemeData( // Changed DialogTheme to DialogThemeData
+          dialogTheme: DialogThemeData(
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(16),
             ),
